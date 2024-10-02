@@ -25,6 +25,8 @@ if ( randomNumber1 < randomNumber2) {
     document.querySelector('h1').innerHTML = "Player 2 Winss"
 } else if (randomNumber2 < randomNumber1) {
     document.querySelector('h1').innerHTML = "player 1 Winss"
-} else {
+} else if ( randomNumber2 === randomNumber1) {
     document.querySelector('h1').innerHTML = "Draww!"
+} else {
+    document.querySelector('h1').innerHTML =  "Refresh Me"
 }
